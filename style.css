@@ -1,0 +1,41 @@
+ body{
+    color: darkgrey;
+    
+ }
+ #navBar {
+    width: 100%;
+    height:50px;
+    background-color:#343030;
+    text-align:center;
+    color:white;
+ }
+
+ #navList{
+     list-style: none;
+     
+ }
+
+  .navItems{
+     font-family: helvetica;
+     font-weight:normal;
+     font-size: 150%;
+     display:inline;
+     margin: 20px;
+    
+ }
+  .navItems:hover{
+     font-weight: bolder;
+     background-color:black;
+     
+ }
+#servDrop{
+    position: absolute;
+    display:none;
+}
+ ul li:hover ul {
+     display:block;
+     background-color: black;
+ }
+ ul li ul li{
+     display: block !important;
+ }
